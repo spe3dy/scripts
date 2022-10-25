@@ -9,3 +9,4 @@ print('Erster Webscraper')
 baseURL = 'https://s.to'
 
 print(baseURL)
+s
