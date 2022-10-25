@@ -1,12 +1,11 @@
-print('Erster Webscraper')
+from bs4 import BeautifulSoup
+import requests
 
-
-
-
+## print('Erster Webscraper')
 
 # https://s.to
 
-baseURL = 'https://s.to'
-
-print(baseURL)
-s
+URL = 'https://home.speedyland.de/comcave/whatismyip'
+        
+print(URL)
+ 
