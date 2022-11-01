@@ -18,4 +18,8 @@ sA = (URL + andor)
 sHoD = (URL + House_of_Dragon)
 sRaM = ( URL + Rick_and_Morty)
 
-print(sP, sA, sHoD, sRaM) 
+#ich habe folgende Serien gefunden:
+print(sP)
+print(sA)
+print(sHoD)
+print(sRaM)
