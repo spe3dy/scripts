@@ -1,6 +1,6 @@
 ### Comming Soon 
 
-# my First Webscraper writen in Python3
+# My First Webscraper written in Python3
 
 
 open quellen.txt
