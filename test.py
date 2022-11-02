@@ -5,4 +5,5 @@ file = open("quellen.txt", "r")
 for line in file:
     #print(line)
     liste.append(line)
-print(liste)    
+print(liste)
+print("ich habe folgende Ergebnisse gefunden {}") ## Nicht getestet, ging nicht auf dem Windows Rechner
