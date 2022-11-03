@@ -8,4 +8,3 @@ response = requests.get(URL)
 soup = BeautifulSoup(response.text, 'html.parser')
 pagestitle = soup.find('span', {'class=': 'col-md-12'})
 print(pagestitle)
-#class="listTag bigListTag blue2"
