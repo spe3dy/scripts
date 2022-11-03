@@ -10,5 +10,5 @@ soup = BeautifulSoup(response.text, 'html.parser') # Hier wird BeautifullSoup ge
 checknew_data = soup.find('div', {'class', 'newEpisodeList', 'german.svg'} ) # Hier wird der Filter gesetzt
 checknew_data = checknew_data.text
 
-checknew_data = '\n'.join((line for line in checknew_data.split('\n') if line))
+checknew_data = '\n'.join((line for line in checknew_data.split('\n') if line)) # hier gehen wir Reihe fuer Reihe durch und loeschen leere Zellen
 print(checknew_data)
