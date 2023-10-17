@@ -18,6 +18,7 @@ Einnahmen = (M+FG)
 Ausgaben = (M+S+G+I+C+H) # Fixkosten
 
 Jobcenter = 890 # Buergergeld
+Fahrgeld = 42 # Fahrgeld vom Jobcenter
 ArbeitWCV = 1728.31 #Netto Gehalt WCV
 
 print(f"Ausgaben abzueglich Fixkosten ({Ausgaben} Euro): \n WCV {ArbeitWCV - Ausgaben - Sp - F} Euro,\nJobcenter {Jobcenter - Ausgaben + FG -F} Euro.\n Differenz {ArbeitWCV - Jobcenter + FG -F}")
