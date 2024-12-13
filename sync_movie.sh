@@ -61,5 +61,5 @@ echo "--------------------------------------" | tee -a "$LOG_FILE"
 #SUBJECT="Transfer Log: $(date)"
 #cat "$LOG_FILE" | mail -s "$SUBJECT" "$EMAIL"
 
-#echo "Log-Datei wurde an $EMAIL gesendet."
+# echo "Log-Datei wurde an $EMAIL gesendet."
 
