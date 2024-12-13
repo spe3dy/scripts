@@ -56,7 +56,7 @@ echo "Transfer abgeschlossen. Dauer: $((DURATION / 60)) Minuten und $((DURATION 
 # Ende der Log-Datei
 echo "--------------------------------------" | tee -a "$LOG_FILE"
 
-# Log-Datei per E-Mail senden
+#Log-Datei per E-Mail senden
 #EMAIL="admin@home.speedyland.de"
 #SUBJECT="Transfer Log: $(date)"
 #cat "$LOG_FILE" | mail -s "$SUBJECT" "$EMAIL"
